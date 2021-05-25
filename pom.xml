@@ -58,17 +58,23 @@
        <dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
+			 <type>pom</type>
+        <scope>import</scope>
 			
 		</dependency>
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
+			 <type>pom</type>
+        <scope>import</scope>
 			
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.activation/activation -->
 		<dependency>
 			<groupId>javax.activation</groupId>
 			<artifactId>activation</artifactId>
+			 <type>pom</type>
+        <scope>import</scope>
 			
 		</dependency>
 
@@ -76,6 +82,8 @@
 		<dependency>
 			<groupId>org.glassfish.jaxb</groupId>
 			<artifactId>jaxb-runtime</artifactId>
+			 <type>pom</type>
+        <scope>import</scope>
 			
 		</dependency>
 		
