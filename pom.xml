@@ -87,6 +87,19 @@
 			
 		</dependency>
 		
+		<dependency>
+		  <groupId>com.sun.xml.bind</groupId>
+		  <artifactId>jaxb-core</artifactId>
+		  <type>pom</type>
+        <scope>import</scope>
+		</dependency>
+		<dependency>
+		  <groupId>com.sun.xml.bind</groupId>
+		  <artifactId>jaxb-impl</artifactId>
+		  <type>pom</type>
+        <scope>import</scope>
+		</dependency>
+		
 
       <dependency>
         <groupId>org.jboss.arquillian</groupId>
